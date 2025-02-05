@@ -7,7 +7,8 @@ const App = () => {
 
   return (
     <div>
-      <h1>Puppy List</h1>
+      <h1>Puppy List🐶</h1>
+      <hr />
       {puppies.map((puppy) => (
         <PuppyCardComponent key={puppy.id} puppy={puppy} />
       ))}
